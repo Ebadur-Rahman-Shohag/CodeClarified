@@ -5,13 +5,14 @@ function JavaScript() {
   return (
     <>
       <div
-        className=" w-full overflow-auto h-screen flex flex-wrap  bg-gradient-to-r from-cyan-400 to-blue-800 
-    "
+        className=" w-full flex flex-wrap"
       >
-        <div className="container mx-auto mt-14 h-full">
+        <div className="container mx-auto mt-14">
           {javascriptData.map((el) => {
             return (
-              <JavaScriptTopic key={el.id} title={el.title} data={el.data} />
+              <>
+                <JavaScriptTopic key={el.id} title={el.title} data={el.data} />
+              </>
             );
           })}
         </div>

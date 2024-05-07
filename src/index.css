@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html,
+body {
+  min-height: 100vh; /* Ensures full viewport height */
+  background: linear-gradient(to right, #22d3ee, #1e40af);
+
+  /* Tailwind colors */
+}

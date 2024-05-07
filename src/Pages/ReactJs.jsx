@@ -5,8 +5,7 @@ function ReactJs() {
   return (
     <>
       <div
-        className=" w-full max-h-screen flex  bg-gradient-to-r from-cyan-400 to-blue-800 h-screen
-    "
+        className=" w-full max-h-screen flex"
       >
         <div className="container mx-auto mt-14">
           {reactData.map((el) => {
