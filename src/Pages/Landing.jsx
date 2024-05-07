@@ -1,10 +1,10 @@
 function Landing() {
   return (
     <div
-      className="bg-gradient-to-r from-cyan-400 to-blue-800 h-screen
+      className="bg-gradient-to-r from-cyan-400 to-blue-800 
     "
     >
-      <div className="container flex flex-col justify-center items-center mx-auto h-screen text-base-100">
+      <div className="container flex flex-col justify-center items-center mx-auto h-screen  text-base-100">
         <div className="text-4xl font-bold mb-6 ">
           <h1>The Path to Preserving Our Planet</h1>
         </div>
