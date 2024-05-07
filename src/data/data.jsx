@@ -1,6 +1,6 @@
 import { nanoid } from "nanoid";
 
-const javascript = [
+const javascriptData = [
   {
     id: nanoid(),
     title: "JavaScript Fundamentals",
@@ -93,28 +93,43 @@ const javascript = [
     data: [],
   },
 ];
-/*
-const asynchronus = [
+
+const reactData = [
   {
     id: nanoid(),
-    title: "Callback",
-    href: "https://chat.openai.com/share/28720948-9990-40bf-bcd5-24ec4b87f564",
+    title: "React Fundamentals",
+    data: [],
   },
   {
     id: nanoid(),
-    title: "Promises",
-    href: "https://chat.openai.com/share/041af228-b4ef-45c3-b58b-1dd50430e68c",
+    title: "Components & Props & JSX",
+    data: [],
   },
   {
     id: nanoid(),
-    title: "Fetch API",
-    href: "https://chat.openai.com/share/06076293-c34c-4ac5-bcd5-71866db8abeb",
+    title: "State & Events & Forms",
+    data: [],
   },
   {
     id: nanoid(),
-    title: "Async & Await",
-    href: "https://chat.openai.com/share/56c5ecb1-e1a4-46f0-9d2a-fe8229eb1077",
+    title: "State Management",
+    data: [],
+  },
+  {
+    id: nanoid(),
+    title: "Hooks",
+    data: [],
+  },
+  {
+    id: nanoid(),
+    title: "React Redux",
+    data: [],
+  },
+  {
+    id: nanoid(),
+    title: "React Query",
+    data: [],
   },
 ];
-*/
-export { javascript };
+
+export { javascriptData, reactData };

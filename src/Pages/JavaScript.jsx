@@ -1,5 +1,5 @@
 import JavaScriptTopic from "../components/JavaScriptTopic";
-import { javascript } from "../data/data";
+import { javascriptData } from "../data/data";
 
 function JavaScript() {
   return (
@@ -9,7 +9,7 @@ function JavaScript() {
     "
       >
         <div className="container mx-auto mt-14">
-          {javascript.map((el) => {
+          {javascriptData.map((el) => {
             return <JavaScriptTopic key={el.id} title={el.title} data={el.data} />;
           })}
         </div>
