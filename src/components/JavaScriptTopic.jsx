@@ -10,11 +10,15 @@ function JavaScriptTopic({ title, data }) {
         </div>
         <ul
           tabIndex={0}
-          className="dropdown-content z-[1] menu p-2 shadow bg-base-200 rounded-box w-52"
+          className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52"
         >
           <li>
             {data.map((el) => {
-              return <a key={el.id} title={el.title} href={el.href}>{el.title}</a>;
+              return (
+                <a key={el.id} title={el.title} href={el.href}>
+                  {el.title}
+                </a>
+              );
             })}
           </li>
         </ul>
