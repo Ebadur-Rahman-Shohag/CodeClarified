@@ -4,9 +4,7 @@ import { javascriptData } from "../data/data";
 function JavaScript() {
   return (
     <>
-      <div
-        className=" w-full flex flex-wrap"
-      >
+      <div className="w-full">
         <div className="container mx-auto mt-14">
           {javascriptData.map((el) => {
             return (
