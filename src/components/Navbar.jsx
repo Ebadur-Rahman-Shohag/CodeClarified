@@ -14,6 +14,7 @@ function Navbar() {
           {isOpen ? 'Close' : 'Menu'}
         </button>
         <div className={`flex-col md:flex-row gap-x-16 py-4 md:flex ${isOpen ? 'flex' : 'hidden'}`}>
+          <Link to="/timeline" className="block text-center">TimeLine</Link>
           <Link to="/javascript" className="block text-center">JavaScript</Link>
           <Link to="/react" className="block text-center">ReactJs</Link>
           <Link to="/node" className="block text-center">NodeJs</Link>

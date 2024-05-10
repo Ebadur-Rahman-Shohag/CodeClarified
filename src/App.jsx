@@ -6,6 +6,7 @@ import JavaScript from "./Pages/JavaScript";
 import ReactJs from "./Pages/ReactJs";
 import NodeJs from "./Pages/NodeJs";
 import ErrorElement from "./components/ErrorElement";
+import TimeLine from "./components/TimeLine";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,11 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Landing />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: "timeline",
+        element: <TimeLine />,
         errorElement: <ErrorElement />,
       },
       {

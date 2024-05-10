@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 function JavaScriptTopic({ title, data }) {
   return (
-    <div className="md:ml-10 dropdown dropdown-hover w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
+    <div className="md:ml-10 dropdown w-full md:w-1/2 lg:w-1/3 xl:w-1/4">
       <button tabIndex={0} role="button" className="btn m-1 w-full">
         {title}
       </button>
