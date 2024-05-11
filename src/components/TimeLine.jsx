@@ -18,14 +18,18 @@ function TimeLine() {
             </svg>
           </div>
           <div className="timeline-start md:text-end mb-10">
-            <time className="font-mono italic">1984</time>
-            <div className="text-lg font-black">First Macintosh computer</div>
-            The Apple Macintosh—later rebranded as the Macintosh 128K—is the
-            original Apple Macintosh personal computer. It played a pivotal role
-            in establishing desktop publishing as a general office function. The
-            motherboard, a 9 in (23 cm) CRT monitor, and a floppy drive were
-            housed in a beige case with integrated carrying handle; it came with
-            a keyboard and single-button mouse.
+            <time className="font-mono italic">1940</time>
+            <div className="text-lg font-black">First Programming Language</div>
+            The invention of programming languages spans several decades and
+            involves numerous contributors. One of the earliest programming
+            languages was `Plankalkül,` conceptualized by Konrad Zuse in the
+            1940s, though it was not implemented until much later. However,
+            modern programming languages began to emerge in the 1950s and 1960s,
+            with significant contributions from pioneers like Grace Hopper
+            (COBOL), John McCarthy (LISP), and John Backus (Fortran). Since
+            then, the evolution of programming languages has been ongoing, with
+            new languages continuously being developed to address different
+            programming paradigms, domains, and requirements.
           </div>
           <hr />
         </li>
@@ -46,12 +50,14 @@ function TimeLine() {
             </svg>
           </div>
           <div className="timeline-end mb-10">
-            <time className="font-mono italic">1998</time>
-            <div className="text-lg font-black">iMac</div>
-            iMac is a family of all-in-one Mac desktop computers designed and
-            built by Apple Inc. It has been the primary part of Apples consumer
-            desktop offerings since its debut in August 1998, and has evolved
-            through seven distinct forms
+            <time className="font-mono italic">1995</time>
+            <div className="text-lg font-black">JavaScript</div>
+            JavaScript was invented by Brendan Eich in 1995 while he was working
+            at Netscape Communications Corporation. It was originally conceived
+            as a lightweight scripting language to add interactivity to web
+            pages in Netscape Navigator, one of the earliest web browsers. Eich
+            developed JavaScript in just 10 days, drawing inspiration from
+            various programming languages such as Java, Scheme, and Self.
           </div>
           <hr />
         </li>
@@ -72,15 +78,15 @@ function TimeLine() {
             </svg>
           </div>
           <div className="timeline-start md:text-end mb-10">
-            <time className="font-mono italic">2001</time>
-            <div className="text-lg font-black">iPod</div>
-            The iPod is a discontinued series of portable media players and
-            multi-purpose mobile devices designed and marketed by Apple Inc. The
-            first version was released on October 23, 2001, about 8+1⁄2 months
-            after the Macintosh version of iTunes was released. Apple sold an
-            estimated 450 million iPod products as of 2022. Apple discontinued
-            the iPod product line on May 10, 2022. At over 20 years, the iPod
-            brand is the oldest to be discontinued by Apple
+            <time className="font-mono italic">2009</time>
+            <div className="text-lg font-black">NodeJs</div>
+            Node.js, an open-source, cross-platform JavaScript runtime
+            environment, was created by Ryan Dahl in 2009. It enables
+            server-side execution of JavaScript, initially built on the V8
+            JavaScript engine by Google. Node.js revolutionized web development
+            by allowing developers to use JavaScript for both client-side and
+            server-side programming, unifying the language across the entire web
+            stack and enabling efficient asynchronous I/O operations.
           </div>
           <hr />
         </li>
@@ -101,15 +107,14 @@ function TimeLine() {
             </svg>
           </div>
           <div className="timeline-end mb-10">
-            <time className="font-mono italic">2007</time>
-            <div className="text-lg font-black">iPhone</div>
-            iPhone is a line of smartphones produced by Apple Inc. that use
-            Apples own iOS mobile operating system. The first-generation iPhone
-            was announced by then-Apple CEO Steve Jobs on January 9, 2007. Since
-            then, Apple has annually released new iPhone models and iOS updates.
-            As of November 1, 2018, more than 2.2 billion iPhones had been sold.
-            As of 2022, the iPhone accounts for 15.6% of global smartphone
-            market share
+            <time className="font-mono italic">2013</time>
+            <div className="text-lg font-black">ReactJs</div>
+            React, created by Jordan Walke at Facebook in 2011, revolutionized
+            front-end web development. It introduced a component-based
+            architecture, virtual DOM, and simplified state management. Released
+            as open-source in 2013, React quickly gained popularity for its
+            efficiency and flexibility, becoming a cornerstone of modern web
+            development.
           </div>
           <hr />
         </li>
@@ -130,12 +135,16 @@ function TimeLine() {
             </svg>
           </div>
           <div className="timeline-start md:text-end mb-10">
-            <time className="font-mono italic">2015</time>
-            <div className="text-lg font-black">Apple Watch</div>
-            The Apple Watch is a line of smartwatches produced by Apple Inc. It
-            incorporates fitness tracking, health-oriented capabilities, and
-            wireless telecommunication, and integrates with iOS and other Apple
-            products and services
+            <time className="font-mono italic">2016</time>
+            <div className="text-lg font-black">NextJs</div>
+            Next.js, a popular React framework for building server-rendered
+            React applications, was developed by Guillermo Rauch and the team at
+            Vercel (formerly ZEIT) in 2016. It simplifies the process of
+            building React applications with features like server-side
+            rendering, static site generation, and automatic code splitting.
+            Next.js streamlines the development of performant and SEO-friendly
+            web applications, accelerating the adoption of modern web
+            development practices.
           </div>
         </li>
       </ul>
