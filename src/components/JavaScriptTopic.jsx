@@ -7,7 +7,7 @@ function JavaScriptTopic({ title, data }) {
       </button>
       <div
         tabIndex={0}
-        className="dropdown-content z-10 menu shadow bg-base-100 rounded-box w-full max-w-xs max-h-80 overflow-y-auto"
+        className="dropdown-content z-10 menu shadow bg-base-100 rounded-box w-full max-w-sm max-h-80 overflow-y-auto"
       >
         <ul>
           {data.map((el) => (
