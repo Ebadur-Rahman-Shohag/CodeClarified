@@ -227,7 +227,6 @@ const javascriptData = [
         title: "8. A Simple Project",
         href: "https://chat.openai.com/share/e585ab60-a3e9-4ae3-ae58-f8be47f3af87",
       },
-     
     ],
   },
   {
@@ -600,87 +599,93 @@ const javascriptData = [
   {
     id: nanoid(),
     title: "Advanced DOM and Events",
-    data: [      {
-      id: nanoid(),
-      title: "1. How the DOM Really Works",
-      href: "https://chat.openai.com/share/37c024b7-7376-4db4-927d-87440c6454b5",
-    },
-    {
-      id: nanoid(),
-      title: "2. Selecting, Creating, and Deleting Elements",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },      {
-      id: nanoid(),
-      title: "3. Styles, Attributes and Classes",
-      href: "https://chat.openai.com/share/37c024b7-7376-4db4-927d-87440c6454b5",
-    },
-    {
-      id: nanoid(),
-      title: "4. Implementing Smooth Scrolling",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },      {
-      id: nanoid(),
-      title: "5. Types of Events and Event Handlers",
-      href: "https://chat.openai.com/share/37c024b7-7376-4db4-927d-87440c6454b5",
-    },
-    {
-      id: nanoid(),
-      title: "6. Event Propagation: Bubbling and Capturing",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },      {
-      id: nanoid(),
-      title: "7. Event Delegation: Implementing Page Navigation",
-      href: "https://chat.openai.com/share/37c024b7-7376-4db4-927d-87440c6454b5",
-    },
-    {
-      id: nanoid(),
-      title: "8. DOM Traversing",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },
-    {
-      id: nanoid(),
-      title: "9. Building a Tabbed Component",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },
-    {
-      id: nanoid(),
-      title: "10. Passing Arguments to Event Handlers",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },
-    {
-      id: nanoid(),
-      title: "11. Implementing a Sticky Navigation: The Scroll Event",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },   {
-      id: nanoid(),
-      title: "12. A Better Way: The Intersection Observer API",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },
-    {
-      id: nanoid(),
-      title: "13. Revealing Elements on Scroll",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },
-    {
-      id: nanoid(),
-      title: "14. Lazy Loading Images",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },
-    {
-      id: nanoid(),
-      title: "15. Building a Slider Component",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },
-    {
-      id: nanoid(),
-      title: "16. Lifecycle DOM Events",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },
-    {
-      id: nanoid(),
-      title: "17. Efficient Script Loading: defer and async",
-      href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
-    },],
+    data: [
+      {
+        id: nanoid(),
+        title: "1. How the DOM Really Works",
+        href: "https://chat.openai.com/share/37c024b7-7376-4db4-927d-87440c6454b5",
+      },
+      {
+        id: nanoid(),
+        title: "2. Selecting, Creating, and Deleting Elements",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "3. Styles, Attributes and Classes",
+        href: "https://chat.openai.com/share/37c024b7-7376-4db4-927d-87440c6454b5",
+      },
+      {
+        id: nanoid(),
+        title: "4. Implementing Smooth Scrolling",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "5. Types of Events and Event Handlers",
+        href: "https://chat.openai.com/share/37c024b7-7376-4db4-927d-87440c6454b5",
+      },
+      {
+        id: nanoid(),
+        title: "6. Event Propagation: Bubbling and Capturing",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "7. Event Delegation: Implementing Page Navigation",
+        href: "https://chat.openai.com/share/37c024b7-7376-4db4-927d-87440c6454b5",
+      },
+      {
+        id: nanoid(),
+        title: "8. DOM Traversing",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "9. Building a Tabbed Component",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "10. Passing Arguments to Event Handlers",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "11. Implementing a Sticky Navigation: The Scroll Event",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "12. A Better Way: The Intersection Observer API",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "13. Revealing Elements on Scroll",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "14. Lazy Loading Images",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "15. Building a Slider Component",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "16. Lifecycle DOM Events",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+      {
+        id: nanoid(),
+        title: "17. Efficient Script Loading: defer and async",
+        href: "https://chat.openai.com/share/62a17853-55a5-4d70-b2d2-325ae5fe8358",
+      },
+    ],
   },
   {
     id: nanoid(),
@@ -797,76 +802,78 @@ const javascriptData = [
   {
     id: nanoid(),
     title: "Moders Js Development",
-    data: [      {
-      id: nanoid(),
-      title: "1. An Overview of Modern JavaScript Development",
-      href: "https://chat.openai.com/share/c0b2fb7b-f9b6-42e2-b5c8-0a8f12696ae1",
-    },
-    {
-      id: nanoid(),
-      title: "2. An Overview of Modules in JavaScript",
-      href: "https://chat.openai.com/share/297d7d8c-7c76-47b3-94be-e0e95c2fed79",
-    },
-    {
-      id: nanoid(),
-      title: "3. Exporting and Importing in ES6 Modules",
-      href: "https://chat.openai.com/share/49cee6cc-3fa2-4144-b5f2-f4d9a2576c6a",
-    },
-    {
-      id: nanoid(),
-      title: "4. Top-Level await (ES2022)",
-      href: "https://chat.openai.com/share/72629115-a80f-4e64-8a66-60871ebc6992",
-    },
-    {
-      id: nanoid(),
-      title: "5. The Module Pattern",
-      href: "https://chat.openai.com/share/3953537a-fba8-4ce8-94f1-9222894d9cc0",
-    },
-    {
-      id: nanoid(),
-      title: "6. CommonJS Modules",
-      href: "https://chat.openai.com/share/fb64cecf-38d2-4661-874f-f55df56ffb9d",
-    },
-    {
-      id: nanoid(),
-      title: "7. A Brief Introduction to the Command Line",
-      href: "https://chat.openai.com/share/b7c46464-2941-48b8-86d1-3c412342b8b3",
-    },
-    {
-      id: nanoid(),
-      title: "8. Introduction to NPM",
-      href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
-    },
-    {
-      id: nanoid(),
-      title: "9. Bundling With Parcel and NPM Scripts",
-      href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
-    },
-    {
-      id: nanoid(),
-      title: "10. Configuring Babel and Polyfilling",
-      href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
-    },
-    {
-      id: nanoid(),
-      title: "11. Writing Clean and Modern JavaScript",
-      href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
-    },
-    {
-      id: nanoid(),
-      title: "12. Let's Fix Some Bad Code: Part 1",
-      href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
-    },
-    {
-      id: nanoid(),
-      title: "13. Declarative and Functional JavaScript Principles",
-      href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
-    },
-    {
-      id: nanoid(),
-      title: "14. Let's Fix Some Bad Code: Part 2",
-      href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
-    },],
+    data: [
+      {
+        id: nanoid(),
+        title: "1. An Overview of Modern JavaScript Development",
+        href: "https://chat.openai.com/share/c0b2fb7b-f9b6-42e2-b5c8-0a8f12696ae1",
+      },
+      {
+        id: nanoid(),
+        title: "2. An Overview of Modules in JavaScript",
+        href: "https://chat.openai.com/share/297d7d8c-7c76-47b3-94be-e0e95c2fed79",
+      },
+      {
+        id: nanoid(),
+        title: "3. Exporting and Importing in ES6 Modules",
+        href: "https://chat.openai.com/share/49cee6cc-3fa2-4144-b5f2-f4d9a2576c6a",
+      },
+      {
+        id: nanoid(),
+        title: "4. Top-Level await (ES2022)",
+        href: "https://chat.openai.com/share/72629115-a80f-4e64-8a66-60871ebc6992",
+      },
+      {
+        id: nanoid(),
+        title: "5. The Module Pattern",
+        href: "https://chat.openai.com/share/3953537a-fba8-4ce8-94f1-9222894d9cc0",
+      },
+      {
+        id: nanoid(),
+        title: "6. CommonJS Modules",
+        href: "https://chat.openai.com/share/fb64cecf-38d2-4661-874f-f55df56ffb9d",
+      },
+      {
+        id: nanoid(),
+        title: "7. A Brief Introduction to the Command Line",
+        href: "https://chat.openai.com/share/b7c46464-2941-48b8-86d1-3c412342b8b3",
+      },
+      {
+        id: nanoid(),
+        title: "8. Introduction to NPM",
+        href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
+      },
+      {
+        id: nanoid(),
+        title: "9. Bundling With Parcel and NPM Scripts",
+        href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
+      },
+      {
+        id: nanoid(),
+        title: "10. Configuring Babel and Polyfilling",
+        href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
+      },
+      {
+        id: nanoid(),
+        title: "11. Writing Clean and Modern JavaScript",
+        href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
+      },
+      {
+        id: nanoid(),
+        title: "12. Let's Fix Some Bad Code: Part 1",
+        href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
+      },
+      {
+        id: nanoid(),
+        title: "13. Declarative and Functional JavaScript Principles",
+        href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
+      },
+      {
+        id: nanoid(),
+        title: "14. Let's Fix Some Bad Code: Part 2",
+        href: "https://chat.openai.com/share/b223bfe5-a7ba-4b42-8e33-1e68e7b1fb5d",
+      },
+    ],
   },
   {
     id: nanoid(),
@@ -913,4 +920,105 @@ const reactData = [
   },
 ];
 
-export { javascriptData, reactData };
+const heroData = [
+  {
+    id: nanoid(),
+    title: "Js Dom Basic",
+    data: [
+      {
+        id: nanoid(),
+        title: "1.What is dom, Connect your JS file with html file",
+        href: "https://claude.ai/share/75679553-aa4c-4291-b7f6-f5b38a4ee330",
+      },
+      {
+        id: nanoid(),
+        title: "2.Traversing dom - getElementsByTagName",
+        href: "https://claude.ai/share/7a6bc7f9-fc8e-4bcc-b3f1-005dadb12279",
+      },
+      {
+        id: nanoid(),
+        title: "3.Traversing dom - getElementByClass VS getElementById",
+        href: "https://claude.ai/share/362237d3-92e1-424d-b869-f40ab8c41ca0",
+      },
+      {
+        id: nanoid(),
+        title: "4.Traversing dom - getElementByQuerySelector, querySelectorAll",
+        href: "https://claude.ai/share/0e1b7922-94f7-4449-a1a9-d503dbca3f7c",
+      },
+      {
+        id: nanoid(),
+        title: "5.Dynamic style, getAttribute, setAttribute, innerText, innerHTML",
+        href: "https://claude.ai/share/b4e5d0ef-4109-4f56-a543-1fc55acc72b1",
+      },
+      {
+        id: nanoid(),
+        title: "6.Styling dom properties, add and remove css class using JS",
+        href: "https://claude.ai/share/e1171669-0b00-46b1-8e88-2a9e78fa9eb4",
+      },
+      {
+        id: nanoid(),
+        title: "7.NodeList, htmlcollection, parentNode, childnodes, createElement",
+        href: "https://claude.ai/share/4b24559f-22fd-4f9e-b314-ce4067a8fca0",
+      },
+      {
+        id: nanoid(),
+        title: "8.Create HTML elements using Javascript and appendChild",
+        href: "https://claude.ai/share/c863148f-649f-4e39-842c-bec585f24685",
+      },
+    ],
+  },
+  {
+    id: nanoid(),
+    title: "Js Dom Advanced",
+    data: [
+      {
+        id: nanoid(),
+        title: "1.Basic of DOM all in one",
+        href: "https://claude.ai/share/1d795385-4df9-4a90-83e5-7796e38a9b62",
+      },
+      {
+        id: nanoid(),
+        title: "2.What is Event, different types of event in web",
+        href: "https://claude.ai/share/d5e6d7a2-08fb-4372-98c5-a2a2f6ead81f",
+      },
+      {
+        id: nanoid(),
+        title: "3.Add onclick handler directly or via javascript",
+        href: "https://claude.ai/share/93b7a358-2d41-4cef-bde2-6552a59d86da",
+      },
+      {
+        id: nanoid(),
+        title: "4.Different ways to use addEventListener on a button",
+        href: "https://claude.ai/share/a50fb8a0-bd74-4dea-934a-2da61961824f",
+      },
+      {
+        id: nanoid(),
+        title: "5.Integrate Event innerText and Text update by Event Event Handlers",
+        href: "https://claude.ai/share/baf8accb-098e-41ae-b250-892fa8376a90",
+      },
+      {
+        id: nanoid(),
+        title: "6.Create a comment box and display comment",
+        href: "https://claude.ai/share/8c02c5dd-91db-4e5c-8240-68f044b2f9de",
+      },
+      {
+        id: nanoid(),
+        title: "7.Explore more event type and Simple github like delete confirmation button",
+        href: "https://claude.ai/share/41b53545-558f-4c2f-8199-c732cc8e268e",
+      },
+      {
+        id: nanoid(),
+        title: "8.Event bubble and Stop propagating",
+        href: "https://claude.ai/share/fcc45803-680a-49a8-aeb6-20cbb1c6efdc",
+      },
+      {
+        id: nanoid(),
+        title: "8.Event delegate and benefit of Event bubble",
+        href: "https://claude.ai/share/b7317b32-f56d-4e75-b92a-b43f352ce962",
+      },
+
+    ],
+  },
+];
+
+export { javascriptData, reactData, heroData };

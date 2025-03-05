@@ -12,7 +12,7 @@ function JavaScriptTopic({ title, data }) {
         <ul>
           {data.map((el) => (
             <li key={el.id}>
-              <a title={el.title} href={el.href} className="block truncate">
+              <a title={el.title} href={el.href} className="block truncate" target="_blank">
                 {el.title}
               </a>
             </li>

@@ -3,6 +3,7 @@ import HomeLayout from "./Pages/HomeLayout";
 import Error from "./Pages/Error";
 import Landing from "./Pages/Landing";
 import JavaScript from "./Pages/JavaScript";
+import Dom from "./Pages/ProgrammingHero";
 import ReactJs from "./Pages/ReactJs";
 import NodeJs from "./Pages/NodeJs";
 import ErrorElement from "./components/ErrorElement";
@@ -27,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: "javascript",
         element: <JavaScript />,
+        errorElement: <ErrorElement />,
+      },
+      {
+        path: "domjs",
+        element: <Dom />,
         errorElement: <ErrorElement />,
       },
       {
