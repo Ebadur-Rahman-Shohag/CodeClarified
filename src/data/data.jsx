@@ -1018,6 +1018,46 @@ const heroData = [
       },
 
     ],
+  }, {
+    id: nanoid(),
+    title: "Js ES6 Basic",
+    data: [
+      {
+        id: nanoid(),
+        title: "1.Difference between var, Let, and const",
+        href: "https://claude.ai/share/1361cd8e-2fa4-40a3-8f6f-dafb38f13459",
+      },
+      {
+        id: nanoid(),
+        title: "2.Function default parameter for not provided values",
+        href: "https://claude.ai/share/0aaea5b9-946e-4558-ae75-64fb3f872fcc",
+      },
+      {
+        id: nanoid(),
+        title: "3.Template string, multiple line string, dynamic string",
+        href: "https://claude.ai/share/25575f26-3cb6-40f4-be15-89092694fe32",
+      },
+      {
+        id: nanoid(),
+        title: "4.Arrow function",
+        href: "https://claude.ai/share/afee7fcf-4cfd-4ff5-8f3b-c301201c1c50",
+      },
+      {
+        id: nanoid(),
+        title: "5.(Advanced) Object and Array Destructuring",
+        href: "https://claude.ai/share/dda257ca-3e70-4a04-b95a-6a4107f5cc95",
+      },
+      {
+        id: nanoid(),
+        title: "6.Keys, values, entries, delete, seal, freeze",
+        href: "https://claude.ai/share/b2980166-620b-4c57-961d-290636af9829",
+      },
+      {
+        id: nanoid(),
+        title: "7.Loop through an object using for in, for of, object entries",
+        href: "https://claude.ai/share/c4ae3dde-7338-4492-ac31-0a05fa68b253",
+      },
+    ],
   },
 ];
 
