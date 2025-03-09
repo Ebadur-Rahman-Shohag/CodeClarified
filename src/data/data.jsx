@@ -1018,7 +1018,8 @@ const heroData = [
       },
 
     ],
-  }, {
+  },
+  {
     id: nanoid(),
     title: "Js ES6 Basic",
     data: [
@@ -1059,6 +1060,59 @@ const heroData = [
       },
     ],
   },
+  {
+    id: nanoid(),
+    title: "Js ES6 Advanced",
+    data: [
+      {
+        id: nanoid(),
+        title: "1.Different way of accessing value from object and nested object",
+        href: "https://claude.ai/share/d1e8f17e-ec8b-46f7-90f6-b2556bad804f",
+      },
+      {
+        id: nanoid(),
+        title: "2.Optional chaining, nullish coalescing, dynamic property",
+        href: "https://claude.ai/share/5ba2ac9b-a963-44e8-8b8b-ac38579a7d56",
+      },
+      {
+        id: nanoid(),
+        title: "3.Array map, filter, find, findIndex, reduce, some, every",
+        href: "https://claude.ai/share/147f9a88-a00f-4388-b26e-8bc5f532d442",
+      },
+      {
+        id: nanoid(),
+        title: "4.Array foreach in Js",
+        href: "https://claude.ai/share/e98b7ea6-8171-4d79-96f9-a241169a667f",
+      },
+      {
+        id: nanoid(),
+        title: "5.Class in Js",
+        href: "https://claude.ai/share/534e475e-54c1-4083-9f90-489f1e6c1e0a",
+      },
+      {
+        id: nanoid(),
+        title: "6.Inheritance in Js Class",
+        href: "https://claude.ai/share/1aac3381-d1f7-444e-9e7a-b9456233b76d",
+      },
+      {
+        id: nanoid(),
+        title: "7.Prototypical inheritance in Js",
+        href: "https://claude.ai/share/0aec46a0-bbcc-4016-a4a6-526c61967394",
+      },
+      {
+        id: nanoid(),
+        title: "8.Encapsulation in Js Class",
+        href: "https://claude.ai/share/38a23b13-289a-43a1-b1d0-a89f561705b1",
+      },
+      {
+        id: nanoid(),
+        title: "8.this keyword in Js",
+        href: "https://claude.ai/share/87f5cad6-8bb8-4dbd-bd2b-08027a3ff656",
+      },
+
+    ]
+  },
+
 ];
 
 export { javascriptData, reactData, heroData };
