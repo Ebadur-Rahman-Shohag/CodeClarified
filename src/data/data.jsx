@@ -1112,6 +1112,64 @@ const heroData = [
 
     ]
   },
+  {
+    id: nanoid(),
+    title: "Js Common Concepts",
+    data: [
+      {
+        id: nanoid(),
+        title: "1.Primitive and non-primitive data type",
+        href: "https://claude.ai/share/10fad5fa-8b33-4457-adff-98a3bdf53602",
+      },
+      {
+        id: nanoid(),
+        title: "2.Null Vs Undefined, different ways you will get undefined",
+        href: "https://claude.ai/share/044e1ee6-7ed4-4277-8002-1f6821f3cc3e",
+      },
+      {
+        id: nanoid(),
+        title: "3.Different Truthy and Falsy Values in JavaScript",
+        href: "https://claude.ai/share/85a3a0f0-4e92-494e-9233-9786c622f397",
+      },
+      {
+        id: nanoid(),
+        title: "4.Double equal (==) vs triple equal (===), implicit conversion",
+        href: "https://claude.ai/share/52c4d48a-fed7-4df3-9238-57cd8830b973",
+      },
+      {
+        id: nanoid(),
+        title: "5.Scoping in Js",
+        href: "https://claude.ai/share/3bd9eb20-b902-4e77-886b-c607212e9ed4",
+      },
+      {
+        id: nanoid(),
+        title: "6.Hoisting in Js",
+        href: "https://claude.ai/share/92a09a12-fda1-4b2f-93be-18b4aff5c2a1",
+      },
+
+      {
+        id: nanoid(),
+        title: "7.Explore about Closure",
+        href: "https://claude.ai/share/6fa51c18-dcb1-4c5c-9226-22dff652cddc",
+      },
+      {
+        id: nanoid(),
+        title: "8.Callback Function in JavaScript",
+        href: "https://claude.ai/share/7d64e542-5487-4db7-8f11-2e29552a63ec",
+      },
+      {
+        id: nanoid(),
+        title: "9.Function arguments pass by reference pass by value",
+        href: "https://claude.ai/share/5a01c29b-6263-44c1-89bf-8b1f495ea5b1",
+      },
+
+      {
+        id: nanoid(),
+        title: "10.Pre Increment, Post Increment, Pre decrement, Post decrement",
+        href: "https://claude.ai/share/4e0a3e96-dbe0-4dc9-b0f7-842bcf2bd78a",
+      },
+    ]
+  },
 
 ];
 
