@@ -1170,6 +1170,60 @@ const heroData = [
       },
     ]
   },
+  {
+    id: nanoid(),
+    title: "API, JSON, Data Load, and Dynamic Website",
+    data: [
+      {
+        id: nanoid(),
+        title: "1.How does Internet work, HTTP Vs HTTPs and What is an API",
+        href: "https://claude.ai/share/be872677-f15e-43e8-a8fb-5c838326c93b",
+      },
+      {
+        id: nanoid(),
+        title: "2.Intro to JSON, JSON Structure, parse, stringify",
+        href: "https://claude.ai/share/c8956ff6-a59e-4962-88df-419fcfd2493a",
+      },
+      {
+        id: nanoid(),
+        title: "3.JSON placeholder, GET data, display data on UI",
+        href: "https://claude.ai/share/cc871591-fb51-4716-9801-c079a71f54c6",
+      },
+      {
+        id: nanoid(),
+        title: "4.Send fetched data to a function",
+        href: "https://claude.ai/share/60149f57-93dc-44c4-9b9c-b2785e895038",
+      },
+      {
+        id: nanoid(),
+        title: "5.Dynamically display loaded data on your website",
+        href: "https://claude.ai/share/d89de2f8-cf18-4bf0-8c94-bd0c4fd7a9cb",
+      },
+      {
+        id: nanoid(),
+        title: "6.Load posts and display on the website with CSS",
+        href: "https://claude.ai/share/4f6819f6-230a-484f-aa91-67d8fc876f28",
+      },
+
+      {
+        id: nanoid(),
+        title: "7.GET, POST, PATCH, DELETE, CRUD, GET Vs POST",
+        href: "https://claude.ai/share/684c9d67-b308-467e-bfe3-5adc703c0eb7",
+      },
+      {
+        id: nanoid(),
+        title: "8.Debug API, Network tab, Status code, headers, bad API",
+        href: "https://claude.ai/share/5d8b9962-6c63-4a8e-84ad-f2c4b99bbef5",
+      },
+      {
+        id: nanoid(),
+        title: "9.async await",
+        href: "https://claude.ai/share/03b16730-b66f-4b09-9b6f-89edc1a0c57c",
+      },
+    ]
+  },
+
+
 
 ];
 

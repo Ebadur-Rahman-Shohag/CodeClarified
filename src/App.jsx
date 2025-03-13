@@ -3,11 +3,11 @@ import HomeLayout from "./Pages/HomeLayout";
 import Error from "./Pages/Error";
 import Landing from "./Pages/Landing";
 import JavaScript from "./Pages/JavaScript";
-import Dom from "./Pages/ProgrammingHero";
 import ReactJs from "./Pages/ReactJs";
 import NodeJs from "./Pages/NodeJs";
 import ErrorElement from "./components/ErrorElement";
 import TimeLine from "./components/TimeLine";
+import ProgrammingHero from "./Pages/ProgrammingHero";
 
 const router = createBrowserRouter([
   {
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "domjs",
-        element: <Dom />,
+        element: <ProgrammingHero />,
         errorElement: <ErrorElement />,
       },
       {

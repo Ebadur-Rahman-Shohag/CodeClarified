@@ -7,12 +7,17 @@ function ProgrammingHeroTopic({ title, data }) {
             </button>
             <div
                 tabIndex={0}
-                className="dropdown-content z-10 menu shadow bg-base-100 rounded-box w-full max-w-sm max-h-80 overflow-y-auto"
+                className="dropdown-content z-10 menu shadow bg-base-100 rounded-box w-full max-w-md max-h-80 overflow-y-auto"
             >
                 <ul>
                     {data.map((el) => (
-                        <li key={el.id}>
-                            <a title={el.title} href={el.href} className="block truncate" target="_blank">
+                        <li key={el.id} >
+                            <a
+                                title={el.title}
+                                href={el.href}
+                                className="block truncate "
+                                target="_blank"
+                            >
                                 {el.title}
                             </a>
                         </li>
