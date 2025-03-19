@@ -1222,6 +1222,54 @@ const heroData = [
       },
     ]
   },
+  {
+    id: nanoid(),
+    title: "Advanced Concepts in JS",
+    data: [
+      {
+        id: nanoid(),
+        title: "1.What really is JavaScript?",
+        href: "https://claude.ai/share/a4ed4976-0c57-4581-9235-bb15f537256f",
+      },
+      {
+        id: nanoid(),
+        title: "2.JavaScript Engine V8 Internal mechanism ",
+        href: "https://claude.ai/share/36e6e083-b2fa-40b9-b54b-d61aae89a479",
+      },
+      {
+        id: nanoid(),
+        title: "3.JavaScript Execution Context and Call Stack ",
+        href: "https://claude.ai/share/b6ec5d29-fa5f-476e-a74a-bbb17530ffba",
+      },
+      {
+        id: nanoid(),
+        title: "4.Single-threaded, Asynchronous vs Synchronous",
+        href: "https://claude.ai/share/eb1c2c79-8ed3-4e85-b824-5b16d408990a",
+      },
+      {
+        id: nanoid(),
+        title: "5.Promise, Promise All",
+        href: "https://claude.ai/share/c805ba13-b423-4d4d-b245-80111873eb08",
+      },
+      {
+        id: nanoid(),
+        title: "6.Async/Await in details ",
+        href: "https://claude.ai/share/5a3ea72a-0ba5-4f56-976f-362a180dac12",
+      },
+
+      {
+        id: nanoid(),
+        title: "7.setInterval and clearInterval",
+        href: "https://claude.ai/share/93691096-a286-498c-968e-b77857a8630b",
+      },
+      {
+        id: nanoid(),
+        title: "8.JavaScript event loop and concurrency",
+        href: "https://claude.ai/share/97c848db-2b4b-4805-8b37-0497bb893607",
+      },
+
+    ]
+  },
 
 
 
